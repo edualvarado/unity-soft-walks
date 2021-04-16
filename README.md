@@ -18,7 +18,17 @@ A project webpage associated to this article is available at: ***in progress*.**
 
 ## Citation
 
-***In progress***
+```
+​```bibtex
+@inproceedings{softwalks2021,
+booktitle = {Eurographics 2021 - Short Papers},
+title={Soft Walks: Real-Time, Two-Ways Interaction between a Character and Loose Grounds},
+author={Chloé Paliard, Eduardo Alvarado, Damien Rohmer, Marie-Paule Cani},
+year={2021},
+publisher = {The Eurographics Association},
+}
+​```
+```
 
 <a name="License"></a>
 ## License
