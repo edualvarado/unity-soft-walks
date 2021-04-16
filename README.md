@@ -1,4 +1,26 @@
-# Soft Walks: Real-Time, Two-Ways Interaction Between a Character and Loose Grounds.
+# Soft Walks: Real-Time, Two-Ways Interaction between a Character and Loose Grounds
 
-## Abstract
-When walking on loose terrains, possibly covered with vegetation, the ground and grass should deform, but the character's gait should also change accordingly. We propose a method for modeling such two-ways interactions in real-time. We first complement a layered character model by a high-level controller, which uses position and angular velocity inputs to improve dynamic oscillations when walking on various slopes. Secondly, at a refined level, the feet are set to locally deform the ground and surrounding vegetation using efficient procedural functions, while the character's response to such deformations is computed through adapted inverse kinematics. While simple to set up, our method is generic enough to adapt to any character morphology. Moreover, its ability to generate in real time, consistent gaits on a variety of loose grounds of arbitrary slope, possibly covered with grass, makes it an interesting solution to enhance films and games.
+![teaser](Soft-Walks-v1/Teaser/Teaser.png)
+
+- [Introduction](#Introduction)
+- [Citation](#Citation)
+- [License](#License)
+
+
+<a name="Introduction"></a>
+## Introduction
+
+This repository provides the codes used to reproduce the results shown in the following paper: **Soft Walks: Real-Time, Two-Ways Interaction between a Character and Loose Grounds**. Chloé Paliard, Eduardo Alvarado, Damien Rohmer, Marie-Paule Cani. Short-Paper. Eurographics 2021.
+
+A project webpage associated to this article is available at: ***in progress*.**
+
+<a name="Citation"></a>
+
+## Citation
+
+***In progress***
+
+<a name="License"></a>
+## License
+
+The code is released under MIT License. See LICENSE for details.
