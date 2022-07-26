@@ -4,6 +4,7 @@
 
 - [Introduction](#Introduction)
 - [Citation](#Citation)
+- [Links](#Links)
 - [License](#License)
 
 
@@ -26,8 +27,14 @@ publisher = {The Eurographics Association},
 }
 ```
 
-<a name="License"></a>
+<a name="Links"></a>
+## Links
 
+- [Project Page](https://edualvarado.com/soft-walks/)
+- [Paper](https://hal.inria.fr/hal-03200160/)
+- [Video](https://www.youtube.com/watch?v=aWBntnCOwEE)
+
+<a name="License"></a>
 ## License
 
 The code is released under MIT License. See LICENSE for details.
