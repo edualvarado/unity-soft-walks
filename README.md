@@ -32,7 +32,7 @@ publisher = {The Eurographics Association},
 
 - [Project Page](https://edualvarado.com/soft-walks/)
 - [Paper](https://hal.inria.fr/hal-03200160/)
-- [Video](https://www.youtube.com/watch?v=aWBntnCOwEE)
+- [Video](https://youtu.be/76eIChGWUGw)
 
 <a name="License"></a>
 ## License
