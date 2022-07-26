@@ -18,12 +18,14 @@ This repository provides the codes used to reproduce the results shown in the fo
 ## Citation
 
 ```bibtex
-@inproceedings{softwalks2021,
-booktitle = {Eurographics 2021 - Short Papers},
-title={Soft Walks: Real-Time, Two-Ways Interaction between a Character and Loose Grounds},
-author={Chloé Paliard, Eduardo Alvarado, Damien Rohmer, Marie-Paule Cani},
-year={2021},
-publisher = {The Eurographics Association},
+@inproceedings{Paliard2021,
+	title = {{Soft Walks: Real-Time, Two-Ways Interaction between a Character and Loose Grounds}},
+	author = {Paliard, Chlo{\'{e}} and Alvarado, Eduardo and Rohmer, Damien and Cani, Marie-paule},
+	doi = {10.2312/egs.20211019},
+	booktitle = {Eurographics (Short)},
+	year = {2021},
+	month = {may},
+	url = {https://hal.inria.fr/hal-03200160/},
 }
 ```
 
