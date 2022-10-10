@@ -977,13 +977,6 @@ MonoBehaviour:
     FarClipPlane: 5000
     Dutch: 0
     LensShift: {x: 0, y: 0}
-    Iso: 200
-    ShutterSpeed: 0.005
-    Aperture: 16
-    BladeCount: 5
-    Curvature: {x: 2, y: 11}
-    BarrelClipping: 0.25
-    Anamorphism: 0
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -2927,13 +2920,6 @@ MonoBehaviour:
     FarClipPlane: 5000
     Dutch: 0
     LensShift: {x: 0, y: 0}
-    Iso: 200
-    ShutterSpeed: 0.005
-    Aperture: 16
-    BladeCount: 5
-    Curvature: {x: 2, y: 11}
-    BarrelClipping: 0.25
-    Anamorphism: 0
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -4880,7 +4866,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.0050229146, y: 0.9701815, z: 0.020179795, w: -0.24148603}
+  m_LocalRotation: {x: 0.0050229155, y: 0.9701815, z: 0.020179795, w: -0.24148604}
   m_LocalPosition: {x: 3.6865416, y: 2.4408274, z: 6.062303}
   m_LocalScale: {x: 0.99999994, y: 1, z: 1}
   m_Children: []
@@ -5077,13 +5063,6 @@ MonoBehaviour:
     FarClipPlane: 5000
     Dutch: 0
     LensShift: {x: 0, y: 0}
-    Iso: 200
-    ShutterSpeed: 0.005
-    Aperture: 16
-    BladeCount: 5
-    Curvature: {x: 2, y: 11}
-    BarrelClipping: 0.25
-    Anamorphism: 0
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -5099,7 +5078,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 965449931}
-  m_LocalRotation: {x: 0.007914044, y: 0.9698703, z: 0.03179504, w: -0.2414086}
+  m_LocalRotation: {x: 0.007914043, y: 0.9698703, z: 0.03179504, w: -0.24140859}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -5387,6 +5366,10 @@ PrefabInstance:
     - target: {fileID: 29387139645641136, guid: d9fbfd04c5b792a4384ae5dd76189278, type: 3}
       propertyPath: m_Name
       value: Sky and Fog Volume
+      objectReference: {fileID: 0}
+    - target: {fileID: 29387139645641136, guid: d9fbfd04c5b792a4384ae5dd76189278, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 29387139645641138, guid: d9fbfd04c5b792a4384ae5dd76189278, type: 3}
       propertyPath: m_RootOrder
@@ -6131,13 +6114,6 @@ MonoBehaviour:
     FarClipPlane: 5000
     Dutch: 0
     LensShift: {x: 0, y: 0}
-    Iso: 200
-    ShutterSpeed: 0.005
-    Aperture: 16
-    BladeCount: 5
-    Curvature: {x: 2, y: 11}
-    BarrelClipping: 0.25
-    Anamorphism: 0
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -11042,6 +11018,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7604513845510057770, guid: d0ac0ca84ba84714fb2100680b219857, type: 3}
+      propertyPath: m_MaterialTemplate
+      value: 
+      objectReference: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 7604513845510057772, guid: d0ac0ca84ba84714fb2100680b219857, type: 3}
       propertyPath: m_Name
       value: VegetationTerrain

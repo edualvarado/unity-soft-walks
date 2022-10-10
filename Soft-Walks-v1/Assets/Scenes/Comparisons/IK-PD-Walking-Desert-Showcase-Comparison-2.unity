@@ -190,7 +190,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 22ff8771d87ef27429e670136399094b, type: 2}
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -409,7 +409,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 22ff8771d87ef27429e670136399094b, type: 2}
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -418,6 +418,36 @@ Terrain:
   m_GroupingID: 0
   m_RenderingLayerMask: 1
   m_AllowAutoConnect: 1
+--- !u!1 &77323083
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 77323084}
+  m_Layer: 0
+  m_Name: -----------------------------------------------------
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &77323084
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77323083}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.826445, y: 2.4408274, z: -1.5464499}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &143558758
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,13 +494,6 @@ MonoBehaviour:
     FarClipPlane: 5000
     Dutch: 0
     LensShift: {x: 0, y: 0}
-    Iso: 200
-    ShutterSpeed: 0.005
-    Aperture: 16
-    BladeCount: 5
-    Curvature: {x: 2, y: 11}
-    BarrelClipping: 0.25
-    Anamorphism: 0
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -620,7 +643,7 @@ Transform:
   m_Children:
   - {fileID: 1657469200}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &268774275
 GameObject:
@@ -689,7 +712,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 22ff8771d87ef27429e670136399094b, type: 2}
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -703,6 +726,36 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4075400362331400019, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
   m_PrefabInstance: {fileID: 8755507097490281416}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &319326182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 319326183}
+  m_Layer: 0
+  m_Name: -----------------------------------------------------
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &319326183
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319326182}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.826445, y: 2.4408274, z: -1.5464499}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &391430739 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5643261012890618611, guid: 87f3dcd9add2a68468a4caec5e7a30b7, type: 3}
@@ -737,7 +790,7 @@ Transform:
   m_Children:
   - {fileID: 4688093660637770973}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &476628102
 GameObject:
@@ -790,13 +843,6 @@ MonoBehaviour:
     FarClipPlane: 5000
     Dutch: 0
     LensShift: {x: 0, y: 0}
-    Iso: 200
-    ShutterSpeed: 0.005
-    Aperture: 16
-    BladeCount: 5
-    Curvature: {x: 2, y: 11}
-    BarrelClipping: 0.25
-    Anamorphism: 0
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -887,7 +933,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 22ff8771d87ef27429e670136399094b, type: 2}
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -963,7 +1009,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 22ff8771d87ef27429e670136399094b, type: 2}
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -1005,7 +1051,7 @@ Transform:
   - {fileID: 1018727286}
   - {fileID: 2026964224}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &738096370
 GameObject:
@@ -1036,7 +1082,7 @@ Transform:
   m_Children:
   - {fileID: 543450653114374720}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &791966319
 GameObject:
@@ -1105,7 +1151,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 22ff8771d87ef27429e670136399094b, type: 2}
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -1147,7 +1193,7 @@ Transform:
   - {fileID: 1357723758}
   - {fileID: 1093223135}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &827255556
 GameObject:
@@ -1353,7 +1399,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.0036487149, y: 0.98427427, z: 0.020472925, w: -0.17541881}
+  m_LocalRotation: {x: 0.003648716, y: 0.98427427, z: 0.020472925, w: -0.17541882}
   m_LocalPosition: {x: -4.2701106, y: 2.4408274, z: 0.37814617}
   m_LocalScale: {x: 0.99999994, y: 1, z: 1}
   m_Children: []
@@ -1550,13 +1596,6 @@ MonoBehaviour:
     FarClipPlane: 5000
     Dutch: 0
     LensShift: {x: 0, y: 0}
-    Iso: 200
-    ShutterSpeed: 0.005
-    Aperture: 16
-    BladeCount: 5
-    Curvature: {x: 2, y: 11}
-    BarrelClipping: 0.25
-    Anamorphism: 0
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1572,7 +1611,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 965449931}
-  m_LocalRotation: {x: 0.005748872, y: 0.9839586, z: 0.032256898, w: -0.17536256}
+  m_LocalRotation: {x: 0.005748872, y: 0.9839586, z: 0.032256898, w: -0.17536259}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1647,7 +1686,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 22ff8771d87ef27429e670136399094b, type: 2}
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -1667,6 +1706,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sky and Fog Volume
       objectReference: {fileID: 0}
+    - target: {fileID: 29387139645641136, guid: d9fbfd04c5b792a4384ae5dd76189278, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 29387139645641138, guid: d9fbfd04c5b792a4384ae5dd76189278, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 29387139645641138, guid: d9fbfd04c5b792a4384ae5dd76189278, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1680,6 +1727,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 29387139645641138, guid: d9fbfd04c5b792a4384ae5dd76189278, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 29387139645641138, guid: d9fbfd04c5b792a4384ae5dd76189278, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -1690,14 +1741,6 @@ PrefabInstance:
     - target: {fileID: 29387139645641138, guid: d9fbfd04c5b792a4384ae5dd76189278, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 29387139645641138, guid: d9fbfd04c5b792a4384ae5dd76189278, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 29387139645641138, guid: d9fbfd04c5b792a4384ae5dd76189278, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 29387139645641138, guid: d9fbfd04c5b792a4384ae5dd76189278, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1906,7 +1949,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 22ff8771d87ef27429e670136399094b, type: 2}
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -1982,7 +2025,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 22ff8771d87ef27429e670136399094b, type: 2}
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -2058,7 +2101,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 22ff8771d87ef27429e670136399094b, type: 2}
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -2134,7 +2177,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 22ff8771d87ef27429e670136399094b, type: 2}
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -2210,7 +2253,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 22ff8771d87ef27429e670136399094b, type: 2}
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -2286,7 +2329,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 22ff8771d87ef27429e670136399094b, type: 2}
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -2328,7 +2371,7 @@ Transform:
   - {fileID: 65055337}
   - {fileID: 1731145025}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1180931592
 GameObject:
@@ -2381,13 +2424,6 @@ MonoBehaviour:
     FarClipPlane: 5000
     Dutch: 0
     LensShift: {x: 0, y: 0}
-    Iso: 200
-    ShutterSpeed: 0.005
-    Aperture: 16
-    BladeCount: 5
-    Curvature: {x: 2, y: 11}
-    BarrelClipping: 0.25
-    Anamorphism: 0
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -2403,7 +2439,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1180931592}
-  m_LocalRotation: {x: 0.0025665928, y: 0.98438185, z: 0.014401145, w: -0.17543797}
+  m_LocalRotation: {x: 0.0025665932, y: 0.98438185, z: 0.014401146, w: -0.17543797}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2420,7 +2456,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2160975900211341776, guid: d40516bb5d269fe4b9c9de8c4f602077, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283246715397993656, guid: d40516bb5d269fe4b9c9de8c4f602077, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6283246715397993656, guid: d40516bb5d269fe4b9c9de8c4f602077, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2435,6 +2475,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6283246715397993656, guid: d40516bb5d269fe4b9c9de8c4f602077, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283246715397993656, guid: d40516bb5d269fe4b9c9de8c4f602077, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0.7071068
       objectReference: {fileID: 0}
@@ -2445,14 +2489,6 @@ PrefabInstance:
     - target: {fileID: 6283246715397993656, guid: d40516bb5d269fe4b9c9de8c4f602077, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6283246715397993656, guid: d40516bb5d269fe4b9c9de8c4f602077, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 6283246715397993656, guid: d40516bb5d269fe4b9c9de8c4f602077, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6283246715397993656, guid: d40516bb5d269fe4b9c9de8c4f602077, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2469,6 +2505,10 @@ PrefabInstance:
     - target: {fileID: 6283246715397993658, guid: d40516bb5d269fe4b9c9de8c4f602077, type: 3}
       propertyPath: m_Name
       value: Directional Light
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224304335333284673, guid: d40516bb5d269fe4b9c9de8c4f602077, type: 3}
+      propertyPath: m_Intensity
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d40516bb5d269fe4b9c9de8c4f602077, type: 3}
@@ -2745,7 +2785,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 22ff8771d87ef27429e670136399094b, type: 2}
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -2821,7 +2861,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 22ff8771d87ef27429e670136399094b, type: 2}
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -2863,7 +2903,7 @@ Transform:
   - {fileID: 268774276}
   - {fileID: 1071731030}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1584670172
 GameObject:
@@ -2932,7 +2972,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 22ff8771d87ef27429e670136399094b, type: 2}
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -2970,7 +3010,7 @@ Transform:
   m_Children:
   - {fileID: 1641789701}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1616159592
 GameObject:
@@ -3039,7 +3079,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 22ff8771d87ef27429e670136399094b, type: 2}
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -3125,7 +3165,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 22ff8771d87ef27429e670136399094b, type: 2}
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -3201,7 +3241,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 22ff8771d87ef27429e670136399094b, type: 2}
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -3210,6 +3250,36 @@ Terrain:
   m_GroupingID: 0
   m_RenderingLayerMask: 1
   m_AllowAutoConnect: 1
+--- !u!1 &1719528261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1719528262}
+  m_Layer: 0
+  m_Name: -----------------------------------------------------
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1719528262
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719528261}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.826445, y: 2.4408274, z: -1.5464499}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1731145024
 GameObject:
   m_ObjectHideFlags: 0
@@ -3277,7 +3347,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 22ff8771d87ef27429e670136399094b, type: 2}
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -3435,7 +3505,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 22ff8771d87ef27429e670136399094b, type: 2}
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -3511,7 +3581,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 22ff8771d87ef27429e670136399094b, type: 2}
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -3587,7 +3657,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 22ff8771d87ef27429e670136399094b, type: 2}
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -3646,7 +3716,7 @@ Transform:
   - {fileID: 1172520016}
   - {fileID: 1933793740}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2106817309
 GameObject:
@@ -3677,7 +3747,7 @@ Transform:
   m_Children:
   - {fileID: 391430739}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2122748521
 GameObject:
@@ -3746,7 +3816,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 22ff8771d87ef27429e670136399094b, type: 2}
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -3822,7 +3892,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 22ff8771d87ef27429e670136399094b, type: 2}
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -3857,6 +3927,10 @@ PrefabInstance:
       value: Ch19_nonPBR_Troll
       objectReference: {fileID: 0}
     - target: {fileID: 5643261012890618611, guid: 87f3dcd9add2a68468a4caec5e7a30b7, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5643261012890618611, guid: 87f3dcd9add2a68468a4caec5e7a30b7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -3869,6 +3943,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5643261012890618611, guid: 87f3dcd9add2a68468a4caec5e7a30b7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5643261012890618611, guid: 87f3dcd9add2a68468a4caec5e7a30b7, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
@@ -3878,14 +3956,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5643261012890618611, guid: 87f3dcd9add2a68468a4caec5e7a30b7, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5643261012890618611, guid: 87f3dcd9add2a68468a4caec5e7a30b7, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5643261012890618611, guid: 87f3dcd9add2a68468a4caec5e7a30b7, type: 3}
-      propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5643261012890618611, guid: 87f3dcd9add2a68468a4caec5e7a30b7, type: 3}
@@ -3918,6 +3988,10 @@ PrefabInstance:
       value: Ch22_nonPBR_Girl
       objectReference: {fileID: 0}
     - target: {fileID: 7897337480760286704, guid: 5bca3ac3d4fff274ea16dffc615123fb, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7897337480760286704, guid: 5bca3ac3d4fff274ea16dffc615123fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -3930,6 +4004,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7897337480760286704, guid: 5bca3ac3d4fff274ea16dffc615123fb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7897337480760286704, guid: 5bca3ac3d4fff274ea16dffc615123fb, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
@@ -3939,14 +4017,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7897337480760286704, guid: 5bca3ac3d4fff274ea16dffc615123fb, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7897337480760286704, guid: 5bca3ac3d4fff274ea16dffc615123fb, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7897337480760286704, guid: 5bca3ac3d4fff274ea16dffc615123fb, type: 3}
-      propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7897337480760286704, guid: 5bca3ac3d4fff274ea16dffc615123fb, type: 3}
@@ -3979,6 +4049,10 @@ PrefabInstance:
       value: Ch14_nonPBR_Mouse
       objectReference: {fileID: 0}
     - target: {fileID: 7659324954437940633, guid: 3c3e3578e44b84f40b3d9b8b10f709ff, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7659324954437940633, guid: 3c3e3578e44b84f40b3d9b8b10f709ff, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -3991,6 +4065,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7659324954437940633, guid: 3c3e3578e44b84f40b3d9b8b10f709ff, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7659324954437940633, guid: 3c3e3578e44b84f40b3d9b8b10f709ff, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
@@ -4000,14 +4078,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7659324954437940633, guid: 3c3e3578e44b84f40b3d9b8b10f709ff, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7659324954437940633, guid: 3c3e3578e44b84f40b3d9b8b10f709ff, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7659324954437940633, guid: 3c3e3578e44b84f40b3d9b8b10f709ff, type: 3}
-      propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7659324954437940633, guid: 3c3e3578e44b84f40b3d9b8b10f709ff, type: 3}
@@ -4032,47 +4102,27 @@ PrefabInstance:
     m_TransformParent: {fileID: 470548213}
     m_Modifications:
     - target: {fileID: 588018098332560716, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
-      propertyPath: showFootprintDebug
+      propertyPath: capture
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 588018098332560716, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
-      propertyPath: showSolverDebug
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 588018098332560716, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
-      propertyPath: showPDDebug
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 588018098332560716, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
-      propertyPath: showHeightsGrassDebug
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 588018098332560716, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
-      propertyPath: showGroundedFeetDebug
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 588018098332560716, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
-      propertyPath: modifyTerrain
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 588018098332560716, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
-      propertyPath: useProIKFeature
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 588018098332560716, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
       propertyPath: goalCube
       value: 
       objectReference: {fileID: 1911962109}
     - target: {fileID: 588018098332560716, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
-      propertyPath: startingLine
-      value: 
-      objectReference: {fileID: 287772295}
-    - target: {fileID: 588018098332560716, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
       propertyPath: goalLine
       value: 
       objectReference: {fileID: 1911962109}
     - target: {fileID: 588018098332560716, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
-      propertyPath: showGoalLineDebug
+      propertyPath: showPDDebug
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 588018098332560716, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
+      propertyPath: startingLine
+      value: 
+      objectReference: {fileID: 287772295}
+    - target: {fileID: 588018098332560716, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
+      propertyPath: modifyTerrain
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 588018098332560716, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
@@ -4080,12 +4130,36 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 588018098332560716, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
-      propertyPath: capture
+      propertyPath: showSolverDebug
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 588018098332560716, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
+      propertyPath: useProIKFeature
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 588018098332560716, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
+      propertyPath: showGoalLineDebug
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 588018098332560716, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
+      propertyPath: showFootprintDebug
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 588018098332560716, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
+      propertyPath: showGroundedFeetDebug
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 588018098332560716, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
+      propertyPath: showHeightsGrassDebug
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1691037206813583005, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4075400362331399957, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4075400362331399957, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4100,6 +4174,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4075400362331399957, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4075400362331399957, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
@@ -4109,14 +4187,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4075400362331399957, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4075400362331399957, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4075400362331399957, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
-      propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4075400362331399957, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
@@ -4145,13 +4215,13 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4075400362336843341, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 95828d6102de3b34fbfd773317bc661a, type: 2}
-    - target: {fileID: 4075400362336843341, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4075400362336843341, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 95828d6102de3b34fbfd773317bc661a, type: 2}
     - target: {fileID: 7830086602558919874, guid: 802f38d866c60b145a3ba22899c3bdb0, type: 3}
       propertyPath: m_Center.y
       value: 0.95
@@ -4174,6 +4244,10 @@ PrefabInstance:
       value: Ch23_nonPBR1_Boy
       objectReference: {fileID: 0}
     - target: {fileID: 9069313996585300306, guid: 6ca49d8abd8fdd74cb5f0896023d15ad, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9069313996585300306, guid: 6ca49d8abd8fdd74cb5f0896023d15ad, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -4186,6 +4260,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9069313996585300306, guid: 6ca49d8abd8fdd74cb5f0896023d15ad, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9069313996585300306, guid: 6ca49d8abd8fdd74cb5f0896023d15ad, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
@@ -4195,14 +4273,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9069313996585300306, guid: 6ca49d8abd8fdd74cb5f0896023d15ad, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9069313996585300306, guid: 6ca49d8abd8fdd74cb5f0896023d15ad, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9069313996585300306, guid: 6ca49d8abd8fdd74cb5f0896023d15ad, type: 3}
-      propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9069313996585300306, guid: 6ca49d8abd8fdd74cb5f0896023d15ad, type: 3}

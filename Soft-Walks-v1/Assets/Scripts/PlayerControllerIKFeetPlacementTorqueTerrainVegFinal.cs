@@ -11,7 +11,7 @@ public class PlayerControllerIKFeetPlacementTorqueTerrainVegFinal : MonoBehaviou
 {
     #region Variables
 
-    [Header("Fix IK Foot")]
+    [Header("Fix IK Foot")] // Used to fix Foot Sliding after review
     public bool addOFFSETFOOT = false;
     public float redLeftOffsetX;
     public float blueLeftOffsetX;
@@ -29,14 +29,15 @@ public class PlayerControllerIKFeetPlacementTorqueTerrainVegFinal : MonoBehaviou
     public float InputZ; // Range between -1 and 1 for vertical axis (forward).
     public Vector3 desiredMoveDirection;
 
+    [Header("Rotation Information")]
+    public bool blockRotationPlayer; // For static animation forward.
+    public float desiredRotationSpeed = 0.2f;
+
     [Header("Thresholds of movement")]
     public float allowPlayerRotation; // When we want the player to start rotating.
     public float Speed;
 
-    [Header("Rotation Information")]
-    public bool blockRotationPlayer; // For static animation forward.
-    public float desiredRotationSpeed = 0.2f;
-    
+    [Header("Character")]
     public Animator anim;
     public CharacterController controller;
     public Camera cam;
@@ -45,13 +46,13 @@ public class PlayerControllerIKFeetPlacementTorqueTerrainVegFinal : MonoBehaviou
     private float gravity;
     private Vector3 characterVelocity; // Measures the velocity of the character at each time.
 
-    [Header("External Method to check isGrounded")]
+    [Header("External Method to check isGrounded")] // Method to detect contact between the player and the ground.
     public LayerMask ground; // In Inspector, Unity capitalizes the label to "Ground".
     [Range(0, 2f)] public float groundDistance = 0.2f;
     [SerializeField] private bool isGrounded;
     [SerializeField] private Transform groundChecker;
 
-    [Header("External Method to check if each foot isGrounded")]
+    [Header("External Method to check if each foot isGrounded")] // Method to detect contact between each foot and the ground.
     public bool showGroundedFeetDebug = true;
     [Range(0, 0.5f)] public float groundDistanceFoot = 0.03f;
     [SerializeField] private bool isLeftFootGrounded;
@@ -61,7 +62,7 @@ public class PlayerControllerIKFeetPlacementTorqueTerrainVegFinal : MonoBehaviou
     [SerializeField] private Transform groundCheckerLeftFootBack;
     [SerializeField] private Transform groundCheckerRightFootBack;
 
-    [Header("Feet Positions")]
+    [Header("Feet Positions")] // Visualize feet positions.
     [SerializeField] private Vector3 rightFootPosition;
     [SerializeField] private Vector3 leftFootPosition;
     [SerializeField] private Vector3 rightFootIKPosition;
@@ -70,7 +71,7 @@ public class PlayerControllerIKFeetPlacementTorqueTerrainVegFinal : MonoBehaviou
     private Quaternion leftFootIKRotation, rightFootIKRotation;
     private float lastPelvisPositionY, lastRightFootPositionY, lastLeftFootPositionY;
 
-    [Header("Feet Grounder (IK)")]
+    [Header("Feet Grounder (IK)")] // IK to adapt feet to the ground.
     public bool showSolverDebug = true; // Visualize the IK Solver for each foot.
     public bool enableFeetIK = true;
     [Range(0, 20f)] [SerializeField] private float heightFromGroundRaycast = 1.15f;
@@ -620,12 +621,12 @@ public class PlayerControllerIKFeetPlacementTorqueTerrainVegFinal : MonoBehaviou
             //Debug.Log("Diff proj: " + diff_proj);
 
             //float tau2 = alpha * sign * diff + beta * (Vector3.Dot(rb.angularVelocity, transform.right) - 0);
-            float tau2 = alpha * diff + beta * (Vector3.Dot(rb.angularVelocity, transform.right) - 0);
+            tau2 = alpha * diff + beta * (Vector3.Dot(rb.angularVelocity, transform.right) - 0);
 
             if (addTorque)
             {
-                //Debug.Log("[INFO] ADDITIONAL TAU (tau2:  " + tau2 + ")  to character!");
-                //rb.AddTorque(-transform.right * tau2);
+                Debug.Log("[INFO] (lFoot in front) Adding torque (tau2:  " + tau2 + ")  to character!");
+                rb.AddTorque(-transform.right * tau2);
             }
 
             if (showPDDebug)
@@ -693,12 +694,12 @@ public class PlayerControllerIKFeetPlacementTorqueTerrainVegFinal : MonoBehaviou
             //Debug.Log("Diff proj: " + diff_proj);
 
             //float tau2 = alpha * sign * diff + beta * (Vector3.Dot(rb.angularVelocity, transform.right) - 0);
-            float tau2 = alpha * diff + beta * (Vector3.Dot(rb.angularVelocity, transform.right) - 0);
+            tau2 = alpha * diff + beta * (Vector3.Dot(rb.angularVelocity, transform.right) - 0);
 
             if (addTorque)
             {
-                //Debug.Log("[INFO] ADDITIONAL TAU (tau2:  " + tau2 + ")  to character!");
-                //rb.AddTorque(-transform.right * tau2);
+                Debug.Log("[INFO] (rFoot in front) Adding torque (tau2:  " + tau2 + ")  to character!");
+                rb.AddTorque(-transform.right * tau2);
             }
 
             if (showPDDebug)
@@ -724,13 +725,17 @@ public class PlayerControllerIKFeetPlacementTorqueTerrainVegFinal : MonoBehaviou
         float currentAngVel = Vector3.Dot(rb.angularVelocity, transform.right);
 
         // PD controller
-        float tau = alpha * (currentPos - targetRbPosition) + beta * (currentAngVel - 0);
+        // Experimenting torque - do not use!
+        tau = alpha * (currentPos - targetRbPosition) + beta * (currentAngVel - 0);
 
         if (addTorque)
         {
-            Debug.Log("[INFO] Adding torque (tau:  " + tau + ")  to character!");
-            rb.AddTorque(transform.right * tau);
+            //Debug.Log("[INFO] Adding torque (tau:  " + tau + ")  to character!");
+            //rb.AddTorque(transform.right * tau);
         }
+
+        //-- From here, used for vegetation --//
+        //------------------------------------//
 
         if (heightGrass == 3 && isGrass && addTorque)
         {
