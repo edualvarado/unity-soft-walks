@@ -1,6 +1,6 @@
 # Soft Walks: Real-Time, Two-Ways Interaction between a Character and Loose Grounds
 
-![teaser](Soft-Walks-v1/Teaser/Teaser.png)
+![teaser](Soft-Walks/Teaser/Teaser.png)
 
 - [Introduction](#Introduction)
 - [Citation](#Citation)
